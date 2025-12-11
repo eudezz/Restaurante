@@ -38,7 +38,7 @@
 
 
 html, body{
-    
+   
     background-image: linear-gradient(to bottom, var(--CorVerdfosco), var(--CorSelva1));
     background-repeat: no-repeat;
     min-height: 100vh;
@@ -50,7 +50,7 @@ header{
    
     display: flex;
     margin: auto;
-    max-width: 800vh;
+    max-width: 800vw;
     background-image: linear-gradient(to bottom, var(--CorSelva1),(--CorVerdfosco));
        
 
@@ -83,22 +83,40 @@ nav{
 nav > a {
     background-color:#9bda7e ;
     margin: auto;
+    margin-left: 10px;
+    margin-bottom: 0px;
     color:var(--corCinzaChumbo);
     font-size: 3vh;
     text-decoration: none;
-    padding: 10px;
+    padding: 9px ;
     font-family: var(--FontRoboto);
-    border: 1px solid;
+    border: 1px  solid black;
     border-radius:10px;
-    
     
     
 }
 
  nav  a:hover{
     background-color: #4fc9a6;
-    font-size: 20px;
+    font-size: 16px;
     
+}
+
+.menu{
+    position: relative;
+    bottom: 40px;
+
+
+}
+.nossa{
+    position: relative;
+    bottom: 40px;
+
+}
+.chame{
+    position: relative;
+    bottom: 40px;
+
 }
 
 main{
