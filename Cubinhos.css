@@ -1,0 +1,94 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Croissant';
+    src: url("fontes/Super\ Croissant.ttf");
+}
+@font-face {
+   font-family: 'Mamboe';
+    src: url('fontes/Mamboe\ Trial.otf');
+}
+@font-face {
+    font-family: 'RobotoItalico' ;
+    src: url('fontes/RobotoMono-Italic-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('fontes/RobotoMono-VariableFont_wght.ttf');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+
+}
+:root{
+    --FontRoboto:'Roboto';
+    --FontRobotoItalico: 'RobotoItalico';
+    --fontMaboe:'Mamboe';
+    --fontCroissant: 'Croissant';
+    --CorVioletNoite: #301934;
+    --CorVerdfosco:#D8F1A0 ;
+    --CorTomate:#FE5E41;
+    --CorAmarelo: #F09A18;
+    --CorSelva1:#00A878;
+     --CorSelva2:#084d39;
+    --corCinzaChumbo:#35393C;
+}
+
+
+html, body{
+    
+    background-image: linear-gradient(to bottom, var(--CorVerdfosco), var(--CorSelva1));
+    background-repeat: no-repeat;
+    min-height: 100vh;
+
+}
+
+
+header{
+   
+    
+    
+    background-image: linear-gradient(to bottom, var(--CorSelva1),(--CorVerdfosco));
+       
+
+}
+header >h1{
+    font-family: var(--fontMaboe);
+    font-size: 8vw;
+}
+
+nav{
+   padding-top: 40px;
+    text-align: center;
+
+}
+
+
+
+nav > a {
+    color:var(--corCinzaChumbo);
+    font-size: 4vh;
+    text-decoration: none;
+    padding: 20px;
+   font-family: var(--FontRoboto);
+   border: 1px solid;
+   border-radius:10px ;
+   
+    
+}
+
+ nav  a:hover{
+    font-size: 25px;
+    background-color:#baf1a0 ;
+    border-radius: 10px;
+    box-shadow: 7px 4px black;
+
+
+}
+
+main{
+    padding-top: 40px;
+
+}
