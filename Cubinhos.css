@@ -47,6 +47,7 @@ html, body{
 
 
 header{
+   
     display: flex;
     margin: auto;
     max-width: 800vh;
@@ -64,6 +65,9 @@ header >h1{
 }
 
 nav{
+    position: relative;
+    right:40px ;
+    bottom: 40px
     background-color: ;
     display: flex;
     margin: auto;
