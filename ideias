@@ -1,0 +1,46 @@
+
+
+parte sobre o restaurante : nossa NossaHistoria
+<section>
+            <p>
+                Em 2015, tivemos  a brilhante ideia de abri um restaurante, Silvan e eu amavos conzinha e tivemos a brilhante ideia de transformar nosso hobie um negocio
+
+            </p>
+
+ </section>
+        xxxxxxxx
+        seção do Cardapio
+
+        <!-- <section class="galeria">
+               
+              <img src="fotos/comidas/Salada2.jpg" alt="">
+           
+                <img src="fotos/comidas/meal-6876654_1280.jpg" alt="">
+            
+                <img src="fotos/comidas/moqueca.jpg" alt="">
+                <img src="fotos/comidas/Mamaedegemeas -.jpg" alt="">
+            </section> -->
+
+            CSS
+
+            
+            /* .galeria{
+    max-width:var(--max-width);margin:12px auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;padding:0 8px;
+}
+.galeria img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+    border-radius:10px;
+    display:block
+}
+
+ .galeria> img:hover {
+    padding: 5px;
+    border-radius:20px ;
+    background: #ffffffcc;
+
+} */
+        
+
+}
